@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  font-size: 15px;
+  background-image: url(images/bg-pattern-top-desktop.svg),
+    url(images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.wrapper {
+  height: 720px;
+  width: 1080px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.section3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+}
+
+.name-img {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.name-img img {
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  margin-right: 25px;
+}
+
+#ceo {
+  background-color: hsl(300, 43%, 22%);
+
+  color: hsl(0, 0%, 100%);
+  line-height: 20px;
+  padding: 15px;
+  height: 200px;
+  border-radius: 12px;
+  padding: 25px;
+}
+
+.name-img p {
+  color: hsl(303, 10%, 53%);
+  margin-top: 12px;
+}
+
+.section1 {
+  padding-top: 55px;
+  padding-right: 35px;
+
+  text-align: left;
+}
+
+.section1 h1 {
+  color: hsl(300, 43%, 22%);
+  margin-bottom: 15px;
+  font-size: 45px;
+  line-height: 55px;
+}
+
+.section1 p {
+  color: hsl(303, 10%, 53%);
+  line-height: 30px;
+  font-weight: 500;
+}
+
+#star {
+  display: flex;
+  background-color: hsl(300, 24%, 96%);
+  height: 35px;
+  text-align: center;
+  justify-content: space-evenly;
+  margin: 25px;
+  border-radius: 12px;
+  height: 55px;
+}
+
+#star img {
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+}
+
+#star p {
+  color: hsl(300, 43%, 22%);
+  margin-top: 10px;
+  font-weight: 550;
+}
+
+.section2 {
+  padding: 35px;
+}
+
+.smith {
+  margin-right: 25px;
+  margin-bottom: 55px;
+}
+
+.robert {
+  margin-top: 25px;
+  margin-right: 25px;
+}
+
+.Anne {
+  margin-top: 65px;
+}
+
+.guru {
+  margin-left: 2rem;
+}
+
+.reviews {
+  margin-left: 4rem;
+}
